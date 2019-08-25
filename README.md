@@ -1,5 +1,5 @@
 # Mini-Monitor_Motorola68000-Assembly
-Designed an implemented an assembly program that provides self-contained interface and functionalities. The program is written in _**Motorola MC68000 processor assembly language**_. The developement and debug is based on the Easy 68K simulator which simulates MC68000 processor environment. A glance at the Easy 68K user interface: <br />
+Designed and implemented an assembly program that provides self-contained interface and functionalities. The program is written in _**Motorola MC68000 processor assembly language**_. The developement and debug is based on the Easy 68K simulator which simulates MC68000 processor environment. A glance at the Easy 68K user interface: <br />
 ![alt text](https://github.com/JulianMei/Mini-Monitor_Motorola68000-Assembly/blob/master/Easy68K.PNG) <br />
 
 As an assembly program, it defines its own _**code segment, data segment and exception table**_. It also defines a group of routines that handles different user commands such as: _**move a block of memory, Display CPU register values (pc, sp, status, etc.), jump to a line and execute the instruction, etc.**_ <br />
