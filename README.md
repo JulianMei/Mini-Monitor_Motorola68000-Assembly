@@ -1,5 +1,5 @@
 # Mini-Monitor_Motorola68000-Assembly
-Designed an implemented an assembly program that provides self-contained interface and functionalities. The program is written in Motorola MC68000 processor assembly language. The developement and debug is done on a simulator named EASY68K which simulates MC68000 processor environment. <br /><br />
+Designed an implemented an assembly program that provides self-contained interface and functionalities. The program is written in Motorola MC68000 processor assembly language. The developement and debug is based on EASY68K which is a simulator simulates MC68000 processor environment. <br /><br />
 
 As an assembly program, it defines its own _code and data segment_ and its own _exception handler table_. An exception will be raised for the following two illegal conditions: <br />
 1.If the program counter enters a non-code segment address, because it leads to undefined behavior.  <br />
